@@ -53,6 +53,7 @@ server.log
 # Skills directory
 /skills/
 # binary 3D model assets - keep out of tailwind source scanning
-public/models/
 upload/
 *.glb
+!public/models/
+!public/models/m4gt3.glb

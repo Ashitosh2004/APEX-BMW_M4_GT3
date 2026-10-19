@@ -66,12 +66,12 @@ bun run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) and let the boot sequence
-take you to the grid.
+take you to the grid. If port 3000 is already in use, start Next.js on another
+port with `bunx next dev -p 3001`.
 
-> **Windows note:** The `dev` script pipes output through `tee`, which may not
-> be available in your shell. Start Next.js directly with
-> `bunx next dev -p 3000`. If that port is already in use, choose another, such
-> as `bunx next dev -p 3001`.
+> **Deployment note:** The BMW model at `public/models/m4gt3.glb` is required
+> for the 3D scene and is intentionally included in Git. Keep it in the
+> repository when pushing so Vercel can serve it.
 
 ### Production
 
